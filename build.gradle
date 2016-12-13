@@ -9,6 +9,7 @@ dependencies {
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '1.4.0.RELEASE'
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.0.RELEASE'
+	compile group: 'org.javassist', name: 'javassist', version: '3.20.0-GA'
 	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.35'
 	testCompile 'junit:junit:4.11'
 }
