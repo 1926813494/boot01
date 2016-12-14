@@ -31,7 +31,7 @@ public class CarDao {
 	
 	public Car getById(int id) {
 		RowMapper<Car> bean = new BeanPropertyRowMapper<Car>(Car.class);
-		return jdbcTemplate.queryForObject(getById, bean);
+		return jdbcTemplate.queryForObject(getById, bean, id);
 	}
 	
 }
